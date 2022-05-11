@@ -1,0 +1,55 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	background-image: url("../../images/corso.jpg");
+	background-size: 100% 100%;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	color: #ffd000;
+}
+
+/* @media (max-width: 992px) {
+	h1 {
+		font-size: 25px;
+	}
+} */
+
+.container {
+	cursor: pointer;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	width: 30px;
+	height: 20px;
+}
+
+.bars {
+	width: 30px;
+	height: 4px;
+	background: #ffd000;
+}
+
+.bars::before,
+.bars::after {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 4px;
+	background: #ffd000;
+}
+
+.bars::before {
+	margin-top: 9px;
+}
+
+.bars::after {
+	margin-top: 18px;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title class="404"></title>
+    </head>
+    <body>
+        <h1 class="404"></h1>
+
+        <script>
+            var url = window.location.href;
+            var site = window.location.protocol + "//" + window.location.hostname + "/";
+            var output = url.replace(site, "");
+
+            var elements = document.getElementsByClassName("404");
+            for( var a = 0; a < elements.length; a++) {
+                elements[a].innerHTML = output;
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+.yellow {
+    background: var(--yellow-logo)
+}
+
+.dropdown-button {
+    display:block;
+    width:100%;
+    padding:.5rem 1rem;
+    clear:both;
+    font-weight:400;
+    color:var(--yellow-logo);
+    text-align:inherit;
+    text-decoration:none;
+    white-space:nowrap;
+    background-color:transparent;
+    border:0;
+}
+
+.dropdown-content {display: none;}
+
+.dropdown-div:hover .dropdown-content{display: block;}
+
+.dropdown-content a:hover {
+    background-color: var(--yellow-logo);
+}
+
+.nav-link {
+    color: black !important;
+}

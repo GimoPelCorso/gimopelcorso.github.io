@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/components/navbar.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <title>Title</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light yellow">
+        <div class="container-fluid">
+            <img class="img-responsive" src="images/navbar-brand.png" alt="navbar-brand" height="50px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#GPCMenu"
+                aria-controls="GPCMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="GPCMenu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li id="nav-link-home" class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+
+                    <li id="nav-link-chiSiamo" class="nav-item">
+                        <a class="nav-link" href="chiSiamo">Chi siamo</a>
+                    </li>
+
+                    <div class="dropdown nav-item dropdown-div">
+                        <a class="dropdown-button nav-link dropdown-toggle" href="progetti">Progetti</a>
+                        <ul class="yellow dropdown-link dropdown-menu dropdown-content"
+                            aria-labelledby="dropdownMenuButton1">
+                            <li>
+                                <a class="dropdown-item" href="dateStoriche" style="text-align: center;">Date
+                                    Storiche</a>
+                            </li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- No Footer -->
+</body>
+
+</html>
