@@ -1,7 +1,11 @@
 body {
 	font-family: "Montserrat", sans-serif;
-	background-image: url("../../images/corso.jpg");
-	background-size: 100% 100%;
+	background-image: url("../../images/IMG_3886.jpeg");
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
 	width: 100%;
 	min-height: 100vh;
 	display: flex;
