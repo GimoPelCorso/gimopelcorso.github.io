@@ -1,0 +1,53 @@
+@media(min-width:991px) {
+    .day {
+        min-width: 33%;
+        width: auto !important;
+        display: table-cell;
+        background-color: var(--yellow-nav);
+        padding: 5px;
+        border: 1px solid;
+        border-color: black;
+        border-radius: 15px;
+    }
+}
+
+@media(max-width:991px) { /*576*/
+    .day {
+        min-width: 33%;
+        width: auto !important;
+        display: block;
+        background-color: var(--yellow-nav);
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 1px solid;
+        border-color: black;
+        border-radius: 15px;
+    }
+}
+
+.separator {
+    border: 1px solid black;
+}
+
+.dayName {
+    text-align: center;
+}
+
+.calendar {
+    display: table;
+    width: 100%;
+    border-spacing: 5px 5px;
+}
+
+.cont {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-height: 100%;
+}
+
+h6 {
+    text-align: center;
+}
