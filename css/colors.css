@@ -2,3 +2,7 @@
     --yellow-logo: #f9ff47;
     --yellow-nav: #ffd000;
 }
+
+.nav-div {
+    height: 66px;
+}

@@ -23,6 +23,23 @@
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light yellow" include-html="../components/navbar.html"></nav>
 
+    <div class="nav-div"></div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Descrizione</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr onclick="window.location='../dateStoriche'">
+                <td>Date Storiche</td>
+                <td>Una raccolta di tutte le date storiche italiane</td>
+            </tr>
+        </tbody>
+    </table>
+
     <script>
         function includeHTML() {
             var z, i, elmnt, file, xhttp;
