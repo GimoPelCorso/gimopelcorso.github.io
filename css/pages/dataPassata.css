@@ -31,12 +31,6 @@ h6 {
     text-align: center;
 }
 
-.dateInput {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.hidden{
-    visibility: hidden;
+.paragraphInput {
+    text-align: center;
 }
