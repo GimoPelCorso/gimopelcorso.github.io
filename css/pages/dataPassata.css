@@ -34,3 +34,8 @@ h6 {
 .paragraphInput {
     text-align: center;
 }
+
+.separator2 {
+    border: 1px solid black;
+    margin:0px 150px 0px 150px;
+}
