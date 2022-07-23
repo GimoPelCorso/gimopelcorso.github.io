@@ -17,6 +17,7 @@ p{
     margin: 0px;
 }
 button{
+    max-width: 90%;
     color: black;
     background-color: white;
     font-size: 25px;
