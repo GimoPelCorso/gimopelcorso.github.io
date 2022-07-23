@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title class="404"></title>
-    </head>
-    <body>
-        <h1 class="404"></h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina non trovata</title>
 
-        <script>
-            var url = window.location.href;
-            var site = window.location.protocol + "//" + window.location.hostname + "/";
-            var output = url.replace(site, "");
-
-            var elements = document.getElementsByClassName("404");
-            for( var a = 0; a < elements.length; a++) {
-                elements[a].innerHTML = output;
-            }
-        </script>
-    </body>
+    <link rel="stylesheet" href="css/pages/404.css">
+</head>
+<body>
+    <center>
+        <div id="avviso">
+            <img src="images/404_arco.png">
+            <h1>Errore 404</h1>
+            <p>La pagina da te cercata non esiste oppure potrebbe essere stata cancellata.</p>
+            <button href="index.html">Ritorna alla homepage</button>
+        </div>
+    </center>
+</body>
 </html>
