@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
@@ -11,6 +12,7 @@
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/components/navbar.css">
     <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/pages/chiSiamo.css">
 
     <link rel="shortcut icon" href="../favicon.ico">
     <title>Chi Siamo</title>
@@ -22,6 +24,107 @@
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light yellow" include-html="../components/navbar.html"></nav>
+
+    <div style="height: 66px;"></div>
+
+    <div class="content">
+        <div style="text-align: center;">
+            <h1 class="h1Inline musicNote">♫</h1>
+            <h1 class="h1Inline">"Siamo chi siamo, siamo arrivati qui com'eravamo"</h1>
+            <h1 class="h1Inline musicNote">♫</h1>
+        </div>
+
+        <h2>La Storia</h2>
+        <p>
+            Gimo Pel Corso nasce il 9 settembre 2019 dai tre membri cofondatori <b>Davide</b>, <b>Gabriele</b> e <b>Tomas</b>.
+            Si creò quando Tomas chiese a Davide di uscire, ma Davide usciva già con Gabriele.
+            Si sono poi aggiunti <b>Lorenzo</b> a novembre 2019, <b>Angelo</b> l'11 settembre 2020, <b>Nicolò</b> nel 2021 e <b>Jacopo</b> nell'estate 2022.
+        </p>
+        <h2>Il Nome</h2>
+        <p>
+            La nascita del nome è stata molto casuale in quanto Davide solitamente per uscire chiedeva in jesino "Oggi gimo pel Corso??" e quindi chiamò il gruppo Whatsapp "Gimo pel Corso?".
+            Dopo qualche tempo è stato rimosso il punto interrogativo ed ecco formato il nome del gruppo.
+        </p>
+        <h1><b>Membri</b></h1>
+
+        <div class="membriContainer">
+            
+            <div class="membroContainer">
+                <div class="membroCard" id="GabrieleCard" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">
+                    <img src="../images/gabrielePic.jpg">
+                    <div class="line"></div>
+                    <p>Gabriele</p>
+                </div>
+            </div>
+            
+            <div class="membroCard" id="SolfaDavideCard" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">
+                <img src="../images/solfadavidePic.jpg">
+                <div class="line"></div>
+                <p>SolfaDavide</p>
+            </div>
+
+            <div class="membroCard" id="TommySebCard" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">
+                <img src="../images/tommySebPic.jpg">
+                <div class="line"></div>
+                <p>TommySeb</p>
+            </div>
+
+            <div class="membroCard" id="LorenzoCard" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">
+                <img src="../images/lorenzoPic.jpg">
+                <div class="line"></div>
+                <p>Lorenzo</p>
+            </div>
+
+            <div class="membroCard" id="AngeloCard" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">
+                <img src="../images/404_arco.png">
+                <div class="line"></div>
+                <p>Angelo</p>
+            </div>
+
+            <div class="membroCard" id="NicoloCard" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">
+                <img src="../images/nicoloPic.jpg">
+                <div class="line"></div>
+                <p>Nicolò</p>
+            </div>
+
+            <div class="membroCard" id="JacopoCard" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">
+                <img src="../images/jacopoPic.jpg">
+                <div class="line"></div>
+                <p>Jacopo</p>
+            </div>
+        </div>
+        
+        <div class="membroDescrizione" id="GabrieleDesc">
+            Gabriele, spesso chiamato Gabri o Gabry, è uno dei tre cofondatori. Frequentatore scout fin dagli albori del gruppo e maggior promotore di progetti.
+        </div>
+
+        <div class="membroDescrizione" id="SolfaDavideDesc">
+            Davide, conosciuto anche come SolfaDavide o sua maestà, è una testa calda e cofondatore del gruppo. Da sempre appassionato alle Vespe, l'informatica e l'elettronica.
+        </div>
+
+        <div class="membroDescrizione" id="TommySebDesc">
+            Tomas, aka TommySeb, è il legante di tutto il gruppo: se lui non esce non si esce. Anch'egli cofondatore e appassionato d'informatica, di elettronica, ma anche si Subwoofer.
+        </div>
+
+        <div class="membroDescrizione" id="LorenzoDesc">
+            Lorenzo si è unito al gruppo perché frequentante della stessa classe di Davide. Dalla sua unione non è sempre stato presente, ma quando c'è riesce ad animare il gruppo.
+        </div>
+
+        <div class="membroDescrizione" id="AngeloDesc">
+            Angelo è entrato a far parte del gruppo in occasione del compleanno di Gabriele. È una persona timida, ma sempre pronta a scherzare. Ottimo meccanico e carrozziere.
+        </div>
+
+        <div class="membroDescrizione" id="NicoloDesc">
+            Nicolò è anagraficamente il più grande, è entrato nel gruppo per la vicinanza di residenza con Tomas ed è sempre pronto a comunicare la sua presenza o la sua assenza.
+        </div>
+
+        <div class="membroDescrizione" id="JacopoDesc">
+            Jacopo, o Jacopini, si è aggiunto al gruppo quasi per caso, ma ha recuperato in frequenza alcuni degli altri. Appassionato di informatica e fenomeno sulle gare di resistenza fin da quando era piccolo.
+        </div>
+
+    </div>
+
+    <script src="../js/chiSiamo.js"></script>
 
     <script>
         function includeHTML() {

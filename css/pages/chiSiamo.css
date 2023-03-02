@@ -1,0 +1,72 @@
+.content{
+    margin: 5px;
+}
+
+.content h1{
+    text-align: center;
+}
+
+.membriContainer {
+    padding: 5px;
+}
+
+.membroCard{
+    display: inline-block;
+    margin: 5px;
+    border: 2px black solid;
+    border-radius: 21px;
+    width: 204px;
+    margin-inline: autoò;
+}
+
+.membroCard img{
+    border-radius: 21px 21px 0px 0px;
+    /* height: 256px;
+    width: 200px; */
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.membroCard .line{
+    border: 1px solid black;
+}
+
+.membroCard p{
+    margin: 3%;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.membroDescrizione{
+    position: sticky;
+    display: none;
+    background-color: var(--yellow-logo);
+    padding: 5px;
+    border: 2px black solid;
+    border-radius: 21px;
+    width: auto;
+    max-width: 400px !important;
+    margin-right: 10px;
+}
+
+.membroContainer {
+    display: inline-block;
+    Min-width: fit-content;
+    Max-width: 400px;
+}
+
+.membroCard:hover + .membroDescrizione{
+    display: block;
+}
+
+.h1Inline {
+    display: inline;
+    clear: none;
+}
+
+.musicNote{
+    color: blueviolet;
+}
