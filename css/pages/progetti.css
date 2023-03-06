@@ -1,0 +1,70 @@
+.progettiContainer {
+    margin: 5px;
+}
+
+.progetto {
+    margin: 5px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 21px;
+    width: 25%;
+}
+
+.overlay img{
+    width: 100%;
+    border-radius: 21px 21px 0px 0px;
+}
+
+.progettoImgDesc p {
+    border-radius: 21px 21px 0px 0px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: var(--yellow-logo);
+}
+
+.progettoName {
+    margin: 3%;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.progetto .line{
+    border: 1px solid black;
+}
+
+.overlay {
+    transition: .5s ease;
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.progettoImgDesc:hover .overlay {
+    width: 0;
+    left: 100%;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.overlay img {
+    height: 111%;
+}
+
+.progettoImgDesc {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.progetto a {
+    text-decoration: none;
+    color: black;
+}

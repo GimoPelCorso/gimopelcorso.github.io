@@ -11,6 +11,7 @@
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/components/navbar.css">
     <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/pages/progetti.css">
 
     <link rel="shortcut icon" href="../favicon.ico">
     <title>Progetti</title>
@@ -25,20 +26,33 @@
 
     <div class="nav-div"></div>
 
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Descrizione</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr onclick="window.location='../dateStoriche'">
-                <td>Date Storiche</td>
-                <td>Una raccolta di tutte le date storiche italiane</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="progettiContainer">
+        <div class="progetto">
+            <a href="../dateStoriche">
+                <div class="progettoImgDesc">
+                    <p>Una raccolta di tutte le date storiche italiane</p>
+                    <div class="overlay">
+                        <img src="../images/dateStoriche.jpg">
+                    </div>
+                </div>
+                <div class="line"></div>
+                <p class="progettoName">Date Storiche</p>
+            </a>
+        </div>
+
+        <div class="progetto">
+            <a href="../dataPassata">
+                <div class="progettoImgDesc">
+                    <p>Presenta tutte le ricorrenze italiane del giorno selezionato</p>
+                    <div class="overlay">
+                        <img src="../images/dataPassata.jpg">
+                    </div>
+                </div>
+                <div class="line"></div>
+                <p class="progettoName">Data Passata</p>
+            </a>
+        </div>
+    </div>
 
     <script>
         function includeHTML() {
