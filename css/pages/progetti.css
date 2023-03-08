@@ -4,10 +4,25 @@
 
 .progetto {
     margin: 5px;
-    display: inline-block;
     border: 2px solid black;
     border-radius: 21px;
-    width: 25%;
+}
+
+@media (orientation: landscape) {
+    .progetto {
+        display: inline-block;
+        width: 25%;
+    }
+
+    .progettoImgDesc {
+        height: 20vmin;
+    }
+}
+
+@media (orientation: portrait) {
+    .progettoImgDesc {
+        height: 41vmin;
+    }
 }
 
 .overlay img{
@@ -61,7 +76,6 @@
 .progettoImgDesc {
     position: relative;
     width: 100%;
-    height: 200px;
 }
 
 .progetto a {
