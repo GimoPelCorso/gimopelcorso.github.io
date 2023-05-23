@@ -14,25 +14,32 @@
 </head>
 
 <body>
-	<div class="container">
-		<div class="bars"></div>
+	<h1>Benvenuto in Gimo Pel Corso!</h1>
+
+	<div id="groupNav" class="navHidden">
+
+		<div id="hamburgerButton" onclick="toggleNav()">
+			<img src="/images/closeNavBar.png">
+		</div>
+		
+		<nav>
+			<a href="/"><h1>Gimo Pel Corso</h1></a>
+			
+			<img src="">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="chiSiamo">Chi siamo</a></li>
+				<li><a href="progetti">Progetti</a></li>
+			</ul>
+		</nav>
 	</div>
 
-	<h1>Benvenuto in Gimo Pel Corso!</h1>
-	<nav>
-		<h2>Gimo Pel Corso</h2>
-		<div class="close">
-			<div></div>
-		</div>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="chiSiamo">Chi siamo</a></li>
-			<li><a href="progetti">Progetti</a></li>
-		</ul>
-	</nav>
-
-	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-	<script src="js/navbar.js"></script>
 </body>
+
+<script>
+	function toggleNav(){
+		document.getElementById("groupNav").classList.toggle("navHidden");
+	}
+</script>
 
 </html>
