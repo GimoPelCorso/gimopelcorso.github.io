@@ -31,7 +31,6 @@
 
 /* Navbar */
 nav{
-
 	height: 100vh; /*vh => viewport height, l'altezza in percentuale dello spazio disponibile per la pagina*/
 
 	width: 450px;
@@ -43,6 +42,7 @@ nav{
 
 /* Navbar title */
 nav h1{
+	top: 20px;
 	text-align: center;
 	color: white;
 }
@@ -55,6 +55,12 @@ nav ul{
 	text-align: center;
 	font-size: 25px;
 	color: white;
+
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 nav ul li{
