@@ -12,8 +12,8 @@
 
 /* Hamburger button image */
 #hamburgerButton img{
-	max-width: 100%;
-	max-height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 /* Navbar */
@@ -92,5 +92,5 @@ nav ul li a:hover::after {
 	display: flex;
 	transition: 300ms;
 	width: calc(450px + 70px);
-	max-width: calc(80vw + 80px);
+	max-width: calc(80vw + 70px);
 }
