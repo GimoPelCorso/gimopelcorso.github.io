@@ -20,7 +20,6 @@
 nav{
 	height: 100vh;
 	width: 450px;
-	max-width: 80vw;
 
 	background-color: #ffd000;
 }
@@ -31,7 +30,7 @@ nav{
 }
 
 .navHidden nav{
-	visibility: hidden;
+	display: none;
 }
 
 /* Navbar title */
@@ -92,6 +91,6 @@ nav ul li a:hover::after {
 	position: absolute;
 	display: flex;
 	transition: 300ms;
-	width: calc(450px + 80px);
+	width: calc(450px + 70px);
 	max-width: calc(80vw + 80px);
 }
