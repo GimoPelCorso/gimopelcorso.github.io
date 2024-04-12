@@ -21,7 +21,7 @@
 			<img src="/images/navbarButton.png">
 		</div>
 		
-		<nav>
+		<nav id="navbar" class="noNav">
 			<a href="/"><h1>Gimo Pel Corso</h1></a>
 			
 			<ul>
@@ -36,7 +36,25 @@
 
 <script>
 	function toggleNav(){
-		document.getElementById("groupNav").classList.toggle("navHidden");
+		// Get elements
+		var groupNav = document.getElementById("groupNav");
+		var navbar = document.getElementById("navbar");
+
+		// Actions to open the navbar
+		if(navbar.className == "noNav"){
+			console.log("Apro... " + navbar.className);
+			navbar.className = "";
+			groupNav.className = "";
+		}
+		// Actions to close the navbar
+		else{
+			groupNav.classList.add("navHidden");
+
+			groupNav.addEventListener('transitionend', function(event) {
+				if (event.target === groupNav && groupNav.className == "navHidden")
+					navbar.classList.add("noNav");
+			});
+		}
 	}
 </script>
 

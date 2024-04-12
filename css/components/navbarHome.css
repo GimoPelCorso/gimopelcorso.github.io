@@ -10,7 +10,6 @@
 	border-radius: 20px 0px 0px 20px;
 }
 
-/* Hamburger button image */
 #hamburgerButton img{
 	width: 100%;
 	height: 100%;
@@ -29,7 +28,7 @@ nav{
 	transform: translateX(min(80vw, 450px));
 }
 
-.navHidden nav{
+.noNav{
 	display: none;
 }
 
@@ -75,7 +74,6 @@ nav ul li a::after {
     left: 0;
     background-color: white;
     transform-origin: bottom left;
-    /* transition: transform 0.25s ease-out; */
   }
   
 nav ul li a:hover::after {
