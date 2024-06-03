@@ -1,4 +1,4 @@
-var date = new Date();
+var date = new Date(2024, 3, 21);
 var day = date.getDate();
 var month = date.getMonth() + 1;
 var today = month + "/" + day + ".html";
